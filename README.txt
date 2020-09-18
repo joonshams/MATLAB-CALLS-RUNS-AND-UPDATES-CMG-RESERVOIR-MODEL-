@@ -4,8 +4,10 @@ CMG files (.out,.dat) to generate forecast models. The main script (EnKFfprvpqan
 
 NOTE: The main script uses RPHTOOLS that are available open-source:
  (https://pangea.stanford.edu/departments/geophysics/dropbox/SRB/public/data/RPHtools.htm)
+ 
  You will also need a CMG licence (i use 2019/2017) and you will have to make those changes
- in SWINT() and functions that SWINT() calls.
+ in SWINT() and functions that SWINT() calls. 
+ CMG FILES NEEDED: gm_version.exe,SR3SimInterface.dll,libiomp5md.dll,and binarrayfile.dll 
 
 The main file uses a series of observations: seismic attributes
 (p-wave seismic velocity and attenuation) and pressure (kPa) to assimilate and update
