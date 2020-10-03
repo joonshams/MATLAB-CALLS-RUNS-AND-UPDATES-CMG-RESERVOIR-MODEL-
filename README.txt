@@ -1,6 +1,8 @@
 This folder contains early EnKF data assimilation trials that I rand using a lab-scale
 reservoir model 'Sandbox'. More specfically, this section of the code calls,runs,and updates 
-CMG files (.out,.dat) to generate forecast models. The main script (EnKFfprvpqandpa.m) calls around these functions.
+CMG files (.out,.dat) to generate forecast models. 
+
+main script (EnKFfprvpqandpa.m) 
 
 NOTE: The main script uses RPHTOOLS that are available open-source:
  (https://pangea.stanford.edu/departments/geophysics/dropbox/SRB/public/data/RPHtools.htm)
